@@ -5,7 +5,7 @@ export PYTHONPATH=$PYTHONPATH:$(pwd)
 #			--nepoch 3 --milestone_1 1 --milestone_2 2 \
 #			--outf /atlas/u/alekxos/domain_adaptation/mettta/ttt_cifar_release/results_meta/cifar10_layer2_gn_expand
 
-CUDA_VISIBLE_DEVICES=0 python script_test_c10.py 5 layer2 online gn_expand
+CUDA_VISIBLE_DEVICES=0 python script_test_c10.py 5 layer2 online bn_expand
 # CUDA_VISIBLE_DEVICES=0 python script_test_c10.py 5 layer2 slow gn_expand
 
 #
